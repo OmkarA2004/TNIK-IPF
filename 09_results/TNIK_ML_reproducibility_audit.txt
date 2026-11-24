@@ -1,0 +1,37 @@
+TNIK-IPF MACHINE-LEARNING REPRODUCIBILITY AUDIT
+=======================================================
+Purpose: identify recorded ML parameters from existing files.
+Only detected evidence is reported; missing settings are not inferred.
+
+
+FOLDER: 04_code
+-------------------------------------------------------
+
+FILE: 04_code/scripts/TNIK_SHAP_substructure_mapping.py
+  Line 39: generator = rdFingerprintGenerator.GetMorganGenerator(
+  Line 40: radius=2,
+
+FILE: 04_code/scripts/TNIK_Y_randomization.py
+  Line 4: from sklearn.ensemble import RandomForestRegressor
+  Line 5: from sklearn.model_selection import KFold, cross_validate
+  Line 28: cv = KFold(
+  Line 31: random_state=42
+  Line 44: model = RandomForestRegressor(
+  Line 45: n_estimators=500,
+  Line 46: random_state=42,
+
+FILE: 04_code/scripts/TNIK_Y_randomization_100.py
+  Line 6: from sklearn.ensemble import RandomForestRegressor
+  Line 7: from sklearn.model_selection import KFold, cross_val_score
+  Line 35: cv = KFold(n_splits=5, shuffle=True, random_state=42)
+  Line 47: model = RandomForestRegressor(
+  Line 48: n_estimators=500,
+  Line 49: random_state=42,
+  Line 53: scores = cross_val_score(
+
+FILE: 04_code/scripts/create_publication_readiness_audit.py
+  Line 105: lines.append("4. Random-split and scaffold-split cross-validation.")
+  Line 117: lines.append("- Explain the weaker and variable scaffold-validation performance.")
+
+FOLDER: 05_models
+-------------------------------------------------------

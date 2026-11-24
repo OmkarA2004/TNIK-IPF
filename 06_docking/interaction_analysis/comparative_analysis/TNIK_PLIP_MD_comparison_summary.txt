@@ -1,0 +1,26 @@
+TNIK PLIP–MD COMPARATIVE ANALYSIS
+============================================================
+
+PLIP interaction records are from representative docking poses.
+MD values are residue-contact occupancies from validated PDB numbering.
+Contact occupancy is not equivalent to interaction occupancy.
+
+PONATINIB
+----------------------------------------
+Hydrophobic: 8 records
+Halogen bond: 1 records
+Hydrogen bond: 1 records
+Interacting residues: VAL31, TYR36, VAL39, LYS54, PHE107, ASP115, VAL170, ASP171
+
+TEPOTINIB
+----------------------------------------
+Hydrophobic: 14 records
+Hydrogen bond: 5 records
+Salt bridge: 1 records
+Interacting residues: GLU29, VAL31, GLY32, ASN33, TYR36, VAL39, ALA52, LYS54, GLU69, CYS108, LEU160, VAL170, ASP171
+
+MD residue-number mapping checks
+----------------------------------------
+Rows with a matching MD residue name: 30/30
+Rows without an MD occupancy match: 0 (Ponatinib N32 column)
+Inspect residue_name_match=False rows before interpreting comparisons.

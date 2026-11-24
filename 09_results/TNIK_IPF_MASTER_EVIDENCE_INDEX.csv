@@ -1,0 +1,21 @@
+Category,Evidence_item,Relative_path,File_exists
+Machine learning,Final ML metrics table (Markdown),09_results/TNIK_ML_final_metrics_table.md,YES
+Machine learning,Final ML metrics table (CSV),09_results/TNIK_ML_final_metrics_table.csv,YES
+Machine learning,Held-out test predictions,05_models/predictions/TNIK_RF_test_predictions.csv,YES
+Machine learning,General scaffold CV results,05_models/metrics/TNIK_RF_scaffold_CV_results.csv,YES
+Machine learning,High-confidence random CV results,05_models/metrics/TNIK_RF_high_confidence_random_CV.csv,YES
+Machine learning,High-confidence scaffold CV results,05_models/metrics/TNIK_RF_high_confidence_scaffold_CV.csv,YES
+Machine learning,Y-randomisation 100-run results,05_models/metrics/TNIK_Y_randomization_100_results.csv,YES
+Docking,Final docking evidence table (Markdown),09_results/TNIK_docking_final_evidence_table.md,YES
+Docking,Final docking evidence table (CSV),09_results/TNIK_docking_final_evidence_table.csv,YES
+Docking,Ponatinib representative docked pose,06_docking/reproducibility/ponatinib_seed_11_out.pdbqt,YES
+Docking,Tepotinib representative docked pose,06_docking/reproducibility/tepotinib_seed_22_out.pdbqt,YES
+Molecular dynamics,Final MD evidence table (Markdown),09_results/molecular_dynamics/TNIK_MD_final_evidence_table.md,YES
+Molecular dynamics,Final MD evidence table (CSV),09_results/molecular_dynamics/TNIK_MD_final_evidence_table.csv,YES
+Molecular dynamics,MD reproducibility record,09_results/molecular_dynamics/TNIK_MD_reproducibility_record.md,YES
+Molecular dynamics,GAFF2 parameter validation,09_results/molecular_dynamics/TNIK_GAFF2_parameter_validation.md,YES
+Interaction analysis,PLIP interaction details,06_docking/interaction_analysis/comparative_analysis/TNIK_PLIP_interaction_details.csv,YES
+Interaction analysis,PLIP interaction summary,06_docking/interaction_analysis/comparative_analysis/TNIK_PLIP_interaction_summary.csv,YES
+Interaction analysis,PLIP MD comparison,06_docking/interaction_analysis/comparative_analysis/TNIK_PLIP_MD_comparison.csv,YES
+Project records,Integrated results summary,09_results/TNIK_IPF_integrated_results_summary.md,YES
+Project records,Evidence inventory,09_results/TNIK_IPF_evidence_inventory.md,YES

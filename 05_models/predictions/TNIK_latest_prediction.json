@@ -1,0 +1,45 @@
+{
+  "compound": {
+    "input_smiles": "C1CC(CC(C1)O)Oc1cc2ncnc(Nc3ccc4[nH]cnc4c3)c2cc1",
+    "canonical_smiles": "OC1CCCC(Oc2ccc3c(Nc4ccc5[nH]cnc5c4)ncnc3c2)C1"
+  },
+  "primary_model": "Random Forest",
+  "predicted_pIC50": 7.101099586259055,
+  "predicted_IC50_nM": 79.23196261344273,
+  "all_model_predictions_pIC50": {
+    "Random Forest": 7.101099586259055,
+    "Extra Trees": 7.1163083853680495,
+    "Gradient Boosting": 7.464051388625435,
+    "SVR": 7.204968836318462
+  },
+  "model_disagreement": {
+    "number_of_models": 4,
+    "prediction_mean_pIC50": 7.22160704914275,
+    "prediction_standard_deviation_pIC50": 0.14548706564209105,
+    "prediction_minimum_pIC50": 7.101099586259055,
+    "prediction_maximum_pIC50": 7.464051388625435,
+    "prediction_range_pIC50": 0.36295180236638025
+  },
+  "applicability_domain": {
+    "status": "Outside",
+    "maximum_training_similarity": 0.2087912087912088,
+    "threshold_method": "5th percentile of leave-one-out maximum Tanimoto similarities in the RF training set",
+    "threshold": 0.5236418511066399,
+    "nearest_training_compound": "CHEMBL4793380",
+    "interpretation": "The compound is below the training-derived similarity threshold. Its model prediction should be treated cautiously."
+  },
+  "training_information": {
+    "training_compounds": 362,
+    "fingerprint_radius": 2,
+    "fingerprint_bits": 2048
+  },
+  "molecular_descriptors": {
+    "molecular_weight": 375.4320000000001,
+    "logP": 3.932000000000002,
+    "TPSA": 95.95,
+    "H_bond_donors": 3,
+    "H_bond_acceptors": 6,
+    "rotatable_bonds": 4
+  },
+  "scientific_caution": "This is an in-silico prediction, not experimental confirmation. Model disagreement is descriptive and is not a calibrated probability of prediction accuracy. Docking, binding affinity, functional inhibition and therapeutic efficacy are distinct evidence types."
+}

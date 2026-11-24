@@ -1,0 +1,49 @@
+AutoDock Vina v1.2.7
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : vina
+Rigid receptor: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/receptor_prep/TNIK_6RA7_rigid.pdbqt
+Ligand: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/ligand_prep/batch_pdbqt/drug_1310.pdbqt
+Grid center: X 10.794 Y 10.872 Z 6.54
+Grid size  : X 22 Y 22 Z 22
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: 55) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -10.52          0          0
+   2       -10.49      2.264       3.72
+   3       -10.22      3.764      5.544
+   4       -9.882      3.133      4.725
+   5       -9.789      5.049      12.02
+   6       -9.368      4.816      8.342
+   7       -9.333      2.636      4.132
+   8       -9.211      3.777      11.13
+   9       -9.194      5.595      11.77
+
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.

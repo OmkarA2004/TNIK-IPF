@@ -1,0 +1,28 @@
+# Mac system files
+.DS_Store
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Private credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Large molecular dynamics files - preserve locally
+06_docking/molecular_dynamics/logs/ligand_docking_workflow_search.txt
+**/*.xtc
+
+# Temporary and backup files
+*.save
+*.cpgz
+#*#
+
+# Duplicate release archive
+TNIK_IPF_final_release.zip
+
+\#*\#

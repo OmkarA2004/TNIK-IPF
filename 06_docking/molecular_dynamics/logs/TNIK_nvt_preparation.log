@@ -1,0 +1,56 @@
+                :-) GROMACS - gmx grompp, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx grompp -f 06_docking/molecular_dynamics/parameters/nvt.mdp -c 06_docking/molecular_dynamics/parameters/TNIK_em_refined.gro -r 06_docking/molecular_dynamics/parameters/TNIK_em_refined.gro -p 06_docking/molecular_dynamics/parameters/TNIK_solvated.top -o 06_docking/molecular_dynamics/parameters/TNIK_nvt.tpr -maxwarn 0
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 100315.00
+
+GROMACS reminds you: "Make the Floor Burn" (2 Unlimited)
+
+Setting the LD random seed to -1092632641
+
+Generated 780 of the 780 non-bonded parameter combinations
+
+Generated 780 of the 780 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'Cl-'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+turning H bonds into constraints...
+
+Setting gen_seed to -174329906
+
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+There are:   300    Protein residues
+There are:     4      Other residues
+There are: 14686      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.423 nm between atom 667 and 675
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.092 nm, buffer size 0.092 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.021 nm, buffer size 0.021 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x80x84, spacing 0.119 0.109 0.114
+
+Estimate for the relative computational load of the PME mesh part: 0.25
+
+This run will generate roughly 16 Mb of data

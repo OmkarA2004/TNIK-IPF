@@ -1,0 +1,48 @@
+; TNIK-ligand complex NPT equilibration
+; Duration: 1 ns
+; Temperature: 300 K
+; Pressure: 1 bar
+
+integrator              = md
+dt                      = 0.002
+nsteps                  = 500000
+
+; Temperature coupling
+tcoupl                  = v-rescale
+tc-grps                 = System
+tau-t                   = 1.0
+ref-t                   = 300
+
+; Pressure coupling
+pcoupl                  = C-rescale
+pcoupltype              = isotropic
+tau-p                   = 5.0
+ref-p                   = 1.0
+compressibility         = 4.5e-5
+refcoord_scaling        = com
+
+; Constraints
+constraints             = h-bonds
+constraint_algorithm    = lincs
+continuation            = yes
+
+; Electrostatics
+cutoff-scheme            = Verlet
+nstlist                  = 20
+coulombtype              = PME
+rcoulomb                 = 1.0
+rvdw                     = 1.0
+
+; Periodic boundary conditions
+pbc                      = xyz
+
+; Output
+nstenergy                = 500
+nstlog                   = 500
+nstxout-compressed       = 5000
+nstvout                  = 0
+nstxout                  = 0
+nstfout                  = 0
+
+; Do not generate new velocities
+gen-vel                  = no

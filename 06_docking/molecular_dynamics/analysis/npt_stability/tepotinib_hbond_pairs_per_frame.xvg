@@ -1,0 +1,125 @@
+# This file was created Fri Nov  6 22:46:52 2026
+# Created by:
+#                :-) GROMACS - gmx hbond, 2026.3-conda_forge (-:
+# 
+# Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+# Data prefix:  /opt/miniconda3/envs/tnik_md
+# Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+# Command line:
+#   gmx hbond -s 06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/npt_1ns/npt_1ns.tpr -f 06_docking/molecular_dynamics/analysis/npt_stability/processed_trajectories/tepotinib_pH74_plus1_whole_centered.xtc -n 06_docking/molecular_dynamics/analysis/npt_stability/index/tepotinib_pH74_plus1_hbond_groups.ndx -r 'group "Protein"' -t 'group "resname_MOL"' -pf -o 06_docking/molecular_dynamics/analysis/npt_stability/tepotinib_hbond_pairs_per_frame.ndx -num 06_docking/molecular_dynamics/analysis/npt_stability/tepotinib_hbond_pairs_per_frame.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gromacs Runs On Most of All Computer Systems
+#
+@    title "Number of hydrogen bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Hbonds"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+      0.000          3
+     10.000          2
+     20.000          1
+     30.000          3
+     40.000          2
+     50.000          3
+     60.000          2
+     70.000          3
+     80.000          2
+     90.000          1
+    100.000          2
+    110.000          2
+    120.000          2
+    130.000          2
+    140.000          3
+    150.000          1
+    160.000          3
+    170.000          4
+    180.000          4
+    190.000          3
+    200.000          3
+    210.000          3
+    220.000          3
+    230.000          3
+    240.000          2
+    250.000          3
+    260.000          3
+    270.000          3
+    280.000          2
+    290.000          2
+    300.000          3
+    310.000          2
+    320.000          3
+    330.000          3
+    340.000          2
+    350.000          3
+    360.000          2
+    370.000          2
+    380.000          1
+    390.000          2
+    400.000          1
+    410.000          1
+    420.000          3
+    430.000          2
+    440.000          2
+    450.000          2
+    460.000          2
+    470.000          2
+    480.000          2
+    490.000          2
+    500.000          1
+    510.000          2
+    520.000          2
+    530.000          3
+    540.000          2
+    550.000          3
+    560.000          2
+    570.000          3
+    580.000          2
+    590.000          4
+    600.000          2
+    610.000          2
+    620.000          3
+    630.000          2
+    640.000          2
+    650.000          3
+    660.000          3
+    670.000          3
+    680.000          1
+    690.000          2
+    700.000          2
+    710.000          2
+    720.000          3
+    730.000          2
+    740.000          1
+    750.000          1
+    760.000          3
+    770.000          2
+    780.000          3
+    790.000          3
+    800.000          2
+    810.000          2
+    820.000          2
+    830.000          2
+    840.000          4
+    850.000          2
+    860.000          2
+    870.000          3
+    880.000          1
+    890.000          2
+    900.000          2
+    910.000          2
+    920.000          2
+    930.000          3
+    940.000          3
+    950.000          1
+    960.000          3
+    970.000          3
+    980.000          2
+    990.000          3
+   1000.000          2

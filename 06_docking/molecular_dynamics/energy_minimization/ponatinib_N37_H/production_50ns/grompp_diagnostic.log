@@ -1,0 +1,106 @@
+                :-) GROMACS - gmx grompp, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_ipf/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_ipf
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H
+Command line:
+  gmx grompp -f production_50ns/production_50ns.mdp -c npt_1ns/npt_1ns.gro -t npt_1ns/npt_1ns.cpt -p complex_production.top -o production_50ns/production_50ns.tpr -po production_50ns/mdout.mdp
+
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file complex_production.top, line 54488]:
+  System has non-zero total charge: -0.002001
+  Total charge should normally be an integer. See
+  https://manual.gromacs.org/current/user-guide/floating-point.html
+  for discussion on how close it should be to an integer.
+
+
+
+
+WARNING 1 [file complex_production.top, line 54488]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+Setting the LD random seed to -167776293
+
+Generated 1830 of the 1830 non-bonded parameter combinations
+
+Generated 1830 of the 1830 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'MOL'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'Cl-'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+turning H bonds into constraints...
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmüller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. (2014)
+https://doi.org/10.1021/ct400626b
+-------- -------- --- Thank You --- -------- --------
+
+Number of degrees of freedom in T-Coupling group System is 100419.00
+Last frame         -1 time 1000.000   
+
+There was 1 NOTE
+
+There was 1 WARNING
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2026.3-conda_forge
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 2923)
+
+Fatal error:
+Too many warnings (1).
+If you are sure all warnings are harmless, use the -maxwarn option.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+Taking velocities from 'npt_1ns/npt_1ns.gro'
+Analysing residue names:
+There are:   300    Protein residues
+There are:     6      Other residues
+There are: 14674      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.425 nm between atom 3507 and 3515
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.096 nm, buffer size 0.096 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.026 nm, buffer size 0.026 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+
+Using frame at t = 1000 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x72x80, spacing 0.120 0.113 0.113
+
+Estimate for the relative computational load of the PME mesh part: 0.21
+
+This run will generate roughly 1371 Mb of data

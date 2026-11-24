@@ -1,0 +1,96 @@
+                :-) GROMACS - gmx grompp, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H
+Command line:
+  gmx grompp -f /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/nvt_posres.mdp -c minimization.gro -r minimization.gro -p complex.top -o nvt_validation.tpr -maxwarn 1
+
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file complex.top, line 54496]:
+  System has non-zero total charge: -0.002001
+  Total charge should normally be an integer. See
+  https://manual.gromacs.org/current/user-guide/floating-point.html
+  for discussion on how close it should be to an integer.
+
+
+
+
+WARNING 1 [file complex.top, line 54496]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+Setting the LD random seed to 1731557119
+
+Generated 1830 of the 1830 non-bonded parameter combinations
+
+Generated 1830 of the 1830 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'MOL'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'Cl-'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+turning H bonds into constraints...
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmüller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. (2014)
+https://doi.org/10.1021/ct400626b
+-------- -------- --- Thank You --- -------- --------
+
+Number of degrees of freedom in T-Coupling group System is 100419.00
+
+NOTE 2 [file /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/nvt_posres.mdp]:
+  Removing center of mass motion in the presence of position restraints
+  might cause artifacts. When you are using position restraints to
+  equilibrate a macro-molecule, the artifacts are usually negligible.
+
+
+There were 2 NOTEs
+
+There was 1 WARNING
+
+GROMACS reminds you: "Do You Have a Mind of Your Own ?" (Garbage)
+
+
+Setting gen_seed to -1112702977
+
+Velocities were taken from a Maxwell distribution at 300 K
+Analysing residue names:
+There are:   300    Protein residues
+There are:     6      Other residues
+There are: 14674      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.424 nm between atom 3507 and 3515
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.091 nm, buffer size 0.091 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.021 nm, buffer size 0.021 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x80x84, spacing 0.119 0.109 0.114
+
+Estimate for the relative computational load of the PME mesh part: 0.25
+
+This run will generate roughly 123 Mb of data

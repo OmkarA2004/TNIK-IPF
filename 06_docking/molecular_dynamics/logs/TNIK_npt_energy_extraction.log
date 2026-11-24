@@ -1,0 +1,26 @@
+                :-) GROMACS - gmx energy, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx energy -f 06_docking/molecular_dynamics/parameters/TNIK_npt_crescale.edr -o 06_docking/molecular_dynamics/analysis/TNIK_npt_properties.xvg
+
+Opened 06_docking/molecular_dynamics/parameters/TNIK_npt_crescale.edr as single precision energy file
+
+Select the terms you want from the following list by
+selecting either (part of) the name or the number or a combination.
+End your selection with an empty line or a zero.
+-------------------------------------------------------------------
+  1  Bond             2  Angle            3  Proper-Dih.      4  Per.-Imp.-Dih.
+  5  LJ-14            6  Coulomb-14       7  LJ-(SR)          8  Coulomb-(SR)  
+  9  Coul.-recip.    10  Potential       11  Kinetic-En.     12  Total-Energy  
+ 13  Conserved-En.   14  Temperature     15  Pressure        16  Constr.-rmsd  
+ 17  Box-X           18  Box-Y           19  Box-Z           20  Volume        
+ 21  Density         22  pV              23  Enthalpy        24  Vir-XX        
+ 25  Vir-XY          26  Vir-XZ          27  Vir-YX          28  Vir-YY        
+ 29  Vir-YZ          30  Vir-ZX          31  Vir-ZY          32  Vir-ZZ        
+ 33  Pres-XX         34  Pres-XY         35  Pres-XZ         36  Pres-YX       
+ 37  Pres-YY         38  Pres-YZ         39  Pres-ZX         40  Pres-ZY       
+ 41  Pres-ZZ         42  #Surf*SurfTen   43  T-System        44  Lamb-System   
+

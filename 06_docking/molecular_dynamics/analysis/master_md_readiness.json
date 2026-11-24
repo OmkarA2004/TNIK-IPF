@@ -1,0 +1,60 @@
+{
+  "project": "TNIK ligand complex MD",
+  "systems": {
+    "ponatinib_N32_H": {
+      "complex_topology": true,
+      "complex_coordinates": true,
+      "gromacs_topology": true,
+      "gromacs_coordinates": true,
+      "minimization_tpr": true,
+      "minimized_coordinates": true,
+      "nvt_parameters": true,
+      "position_restraint_file": false,
+      "topology_has_posres_reference": false,
+      "topology_include_lines": [],
+      "minimization_converged": true,
+      "minimization_log_exists": true,
+      "atom_count": 48973,
+      "residue_count": 14980,
+      "total_charge": -1e-06,
+      "ready_for_nvt_validation": false
+    },
+    "ponatinib_N37_H": {
+      "complex_topology": true,
+      "complex_coordinates": true,
+      "gromacs_topology": true,
+      "gromacs_coordinates": true,
+      "minimization_tpr": true,
+      "minimized_coordinates": true,
+      "nvt_parameters": true,
+      "position_restraint_file": false,
+      "topology_has_posres_reference": false,
+      "topology_include_lines": [],
+      "minimization_converged": true,
+      "minimization_log_exists": true,
+      "atom_count": 48973,
+      "residue_count": 14980,
+      "total_charge": -0.002001,
+      "ready_for_nvt_validation": false
+    },
+    "tepotinib_pH74_plus1": {
+      "complex_topology": true,
+      "complex_coordinates": true,
+      "gromacs_topology": true,
+      "gromacs_coordinates": true,
+      "minimization_tpr": true,
+      "minimized_coordinates": true,
+      "nvt_parameters": true,
+      "position_restraint_file": false,
+      "topology_has_posres_reference": false,
+      "topology_include_lines": [],
+      "minimization_converged": true,
+      "minimization_log_exists": true,
+      "atom_count": 48984,
+      "residue_count": 14984,
+      "total_charge": -0.000999,
+      "ready_for_nvt_validation": false
+    }
+  },
+  "overall": "NOT_READY_CHECK_REPORTED_ITEMS"
+}

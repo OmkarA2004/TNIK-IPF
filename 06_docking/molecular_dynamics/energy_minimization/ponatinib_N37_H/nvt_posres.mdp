@@ -1,0 +1,40 @@
+integrator = md
+dt = 0.002
+nsteps = 250000
+
+; Temperature coupling
+tcoupl = v-rescale
+tc-grps = System
+tau-t = 1.0
+ref-t = 300
+
+; Pressure coupling disabled for NVT
+pcoupl = no
+
+; Constraints
+constraints = h-bonds
+constraint_algorithm = lincs
+
+; Electrostatics
+cutoff-scheme           = Verlet
+nstlist                 = 20
+coulombtype             = PME
+rcoulomb                = 1.0
+rvdw                    = 1.0
+
+; Periodic boundary conditions
+pbc                     = xyz
+
+; Position restraints
+
+; Output
+nstenergy = 500
+nstlog = 500
+nstxout-compressed = 500
+nstvout = 0
+nstxout = 0
+nstfout = 0
+continuation = no
+gen-vel = yes
+gen-temp = 300
+gen-seed = -1

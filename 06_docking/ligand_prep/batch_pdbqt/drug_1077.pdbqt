@@ -1,0 +1,19 @@
+REMARK SMILES N[C@@H]1CONC1=O
+REMARK SMILES IDX 5 1 4 2 3 3 2 4 6 5 7 6 1 8
+REMARK H PARENT 5 7 1 9 1 10
+REMARK INDEX MAP 1 1 2 2 3 3 4 4 6 5 7 6 8 7 5 8 12 9 13 10
+ROOT
+ATOM      1  N   UNL     1      -1.682   0.630   0.409  1.00  0.00    -0.233 N 
+ATOM      2  O   UNL     1      -1.775  -0.746   0.081  1.00  0.00    -0.271 OA
+ATOM      3  C   UNL     1      -0.471  -1.107  -0.401  1.00  0.00    +0.222 C 
+ATOM      4  C   UNL     1       0.505  -0.152   0.269  1.00  0.00    +0.172 C 
+ATOM      5  C   UNL     1      -0.378   1.068   0.356  1.00  0.00    +0.262 C 
+ATOM      6  O   UNL     1      -0.012   2.232   0.417  1.00  0.00    -0.271 OA
+ATOM      7  H   UNL     1      -2.461   1.245   0.213  1.00  0.00    +0.199 HD
+ENDROOT
+BRANCH   4   8
+ATOM      8  N   UNL     1       1.726   0.094  -0.508  1.00  0.00    -0.318 NA
+ATOM      9  H   UNL     1       2.416  -0.626  -0.299  1.00  0.00    +0.119 HD
+ATOM     10  H   UNL     1       2.130   0.980  -0.190  1.00  0.00    +0.119 HD
+ENDBRANCH   4   8
+TORSDOF 1

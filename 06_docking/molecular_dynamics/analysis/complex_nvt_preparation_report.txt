@@ -1,0 +1,33 @@
+TNIK COMPLEX NVT PREPARATION REPORT
+============================================================
+Date: 2026-11-04T20:39:50.544285
+GROMACS: /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+NVT duration: 500 ps
+Time step: 0.002 ps
+NVT steps: 250000
+
+ponatinib_N32_H
+--------------------------------------------------
+Status: PASSED
+Total atoms: 48973
+Protein heavy atoms restrained: 2434
+Ligand heavy atoms restrained: 39
+NVT TPR: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/nvt_validation.tpr
+
+ponatinib_N37_H
+--------------------------------------------------
+Status: PASSED
+Total atoms: 48973
+Protein heavy atoms restrained: 2434
+Ligand heavy atoms restrained: 39
+NVT TPR: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/nvt_validation.tpr
+
+tepotinib_pH74_plus1
+--------------------------------------------------
+Status: PASSED
+Total atoms: 48984
+Protein heavy atoms restrained: 2434
+Ligand heavy atoms restrained: 37
+NVT TPR: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/nvt_validation.tpr
+
+OVERALL STATUS: ALL SYSTEMS PASSED

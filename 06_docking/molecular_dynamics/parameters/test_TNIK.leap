@@ -1,0 +1,10 @@
+source leaprc.protein.ff14SB
+source leaprc.phosaa14SB
+
+protein = loadpdb 06_docking/molecular_dynamics/structures/TNIK_6RA7_protein_raw.pdb
+
+check protein
+
+saveamberparm protein 06_docking/molecular_dynamics/parameters/TNIK_test.prmtop 06_docking/molecular_dynamics/parameters/TNIK_test.inpcrd
+
+quit

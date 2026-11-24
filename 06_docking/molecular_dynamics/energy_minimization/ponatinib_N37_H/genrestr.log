@@ -1,0 +1,27 @@
+               :-) GROMACS - gmx genrestr, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx genrestr -f 06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/minimization.gro -o 06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/posre_protein.itp -fc 1000 1000 1000 -n 06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/protein_heavy.ndx
+
+
+-------------------------------------------------------
+Program:     gmx genrestr, version 2026.3-conda_forge
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int *, char **)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -n
+    File
+    '06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/protein_heavy.ndx'
+    does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------

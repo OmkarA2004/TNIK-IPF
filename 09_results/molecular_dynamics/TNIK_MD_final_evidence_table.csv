@@ -1,0 +1,24 @@
+Analysis,System_or_residue,Primary_result,Additional_result,Interpretation_and_notes
+Simulation protocol,All systems,NVT: 500 ps; NPT: 1 ns,2 fs timestep; heavy-atom restraints,"Restrained equilibration, not production MD"
+NPT equilibration,All systems,Approximately 300 K,Initial 0–200 ps volume/density transient; later values relatively stable,Pressure fluctuations remained large; equilibration is preliminary
+Protein backbone RMSD,Ponatinib N32-H,Mean 0.0220 nm; SD 0.0022 nm,Final 0.0209 nm,Low RMSD under heavy-atom restraints
+Protein backbone RMSD,Ponatinib N37-H,Mean 0.0223 nm; SD 0.0023 nm,Final 0.0219 nm,Low RMSD under heavy-atom restraints
+Protein backbone RMSD,Tepotinib,Mean 0.0220 nm; SD 0.0022 nm,Final 0.0224 nm,Low RMSD under heavy-atom restraints
+Ligand heavy-atom RMSD,Ponatinib N32-H,Mean 0.0317 nm; SD 0.0059 nm,Maximum 0.0458 nm; final 0.0395 nm,Protein-backbone-aligned; restraints affect interpretation
+Ligand heavy-atom RMSD,Ponatinib N37-H,Mean 0.0295 nm; SD 0.0049 nm,Maximum 0.0401 nm; final 0.0276 nm,Protein-backbone-aligned; restraints affect interpretation
+Ligand heavy-atom RMSD,Tepotinib,Mean 0.0291 nm; SD 0.0056 nm,Maximum 0.0413 nm; final 0.0291 nm,Protein-backbone-aligned; restraints affect interpretation
+Protein-ligand contacts (0.35 nm),Ponatinib N32-H,Mean 31.198; SD 1.265,Range 28–34; final 30,"Geometric contacts, not binding affinity"
+Protein-ligand contacts (0.35 nm),Ponatinib N37-H,Mean 32.010; SD 1.473,Range 28–35; final 33,"Geometric contacts, not binding affinity"
+Protein-ligand contacts (0.35 nm),Tepotinib,Mean 33.376; SD 0.926,Range 30–35; final 34,"Geometric contacts, not binding affinity"
+Mean minimum contact distance,Ponatinib N32-H,0.2438 nm,Final 0.2478 nm,Minimum atom-pair distance
+Mean minimum contact distance,Ponatinib N37-H,0.2388 nm,Final 0.2423 nm,Minimum atom-pair distance
+Mean minimum contact distance,Tepotinib,0.1926 nm,Final 0.2058 nm,Minimum atom-pair distance
+Hydrogen bonds,Ponatinib N32-H,Zero detected,Under the applied GROMACS criteria,Does not exclude other interaction types
+Hydrogen bonds,Ponatinib N37-H,Zero detected,Under the applied GROMACS criteria,Does not exclude other interaction types
+Hydrogen bonds,Tepotinib,Mean 2.3168 per frame; SD 0.734,Maximum 4; at least one in 100% of frames,Geometry-based hydrogen-bond analysis
+Tepotinib hydrogen-bond occupancy,GLU29,79.21%,GLU29 OE2 to ligand N3-H14,Residue numbering mapped to original PDB
+Tepotinib hydrogen-bond occupancy,CYS108,83.17%,CYS108 N-H to ligand O2,Residue numbering mapped to original PDB
+Shared contact residues (>=50%),All three systems,13 residues,"VAL31, GLY32, TYR36, VAL39, ALA52, LYS54, PHE107, CYS108, GLY111, SER112, LEU160, VAL170, ASP171",Residue-level contact occupancy
+Ponatinib-specific contact residues (>=50%),Ponatinib,3 residues,"LEU15, GLY109, ASP115",Specific to the analysed Ponatinib systems
+Tepotinib-specific contact residues (>=50%),Tepotinib,8 residues,"SER16, GLU29, LEU30, ASN33, GLU69, MET105, GLU106, ARG313",Specific to the analysed Tepotinib system
+Ponatinib protonation comparison,N32-H versus N37-H,Different residue-contact occupancies,Examples: GLN157 37.62% vs 6.93%; MET105 37.62% vs 10.89%; ARG313 40.59% vs 48.51%,Protonation state influences observed contact patterns

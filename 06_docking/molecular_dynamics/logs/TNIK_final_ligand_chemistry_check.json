@@ -1,0 +1,300 @@
+{
+  "ponatinib": {
+    "original": {
+      "atoms": 66,
+      "heavy_atoms": 39,
+      "bonds": 70,
+      "formal_charge": 0,
+      "molecular_weight": 532.57,
+      "canonical_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+      "chiral_centers": [],
+      "nitrogen_environments": [
+        {
+          "index": 1,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 3,
+          "neighbors": [
+            "C(index=0)",
+            "N(index=3)",
+            "C(index=7)"
+          ]
+        },
+        {
+          "index": 3,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "N(index=1)",
+            "C(index=5)"
+          ]
+        },
+        {
+          "index": 8,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "C(index=0)",
+            "C(index=6)"
+          ]
+        },
+        {
+          "index": 20,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 3,
+          "neighbors": [
+            "C(index=17)",
+            "C(index=21)",
+            "H(index=49)"
+          ]
+        },
+        {
+          "index": 33,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 3,
+          "neighbors": [
+            "C(index=31)",
+            "C(index=34)",
+            "C(index=37)"
+          ]
+        },
+        {
+          "index": 36,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 3,
+          "neighbors": [
+            "C(index=32)",
+            "C(index=35)",
+            "C(index=38)"
+          ]
+        }
+      ]
+    },
+    "docked": {
+      "atoms": 40,
+      "heavy_atoms": 39,
+      "bonds": 44,
+      "formal_charge": 0,
+      "molecular_weight": 532.57,
+      "canonical_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+      "chiral_centers": [],
+      "nitrogen_environments": [
+        {
+          "index": 6,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 3,
+          "neighbors": [
+            "C(index=0)",
+            "C(index=7)",
+            "H(index=9)"
+          ]
+        },
+        {
+          "index": 20,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "C(index=19)",
+            "N(index=22)"
+          ]
+        },
+        {
+          "index": 22,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 3,
+          "neighbors": [
+            "N(index=20)",
+            "C(index=24)",
+            "C(index=25)"
+          ]
+        },
+        {
+          "index": 27,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "C(index=26)",
+            "C(index=25)"
+          ]
+        },
+        {
+          "index": 33,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 3,
+          "neighbors": [
+            "C(index=32)",
+            "C(index=34)",
+            "C(index=35)"
+          ]
+        },
+        {
+          "index": 38,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 3,
+          "neighbors": [
+            "C(index=36)",
+            "C(index=37)",
+            "C(index=39)"
+          ]
+        }
+      ]
+    }
+  },
+  "tepotinib": {
+    "original": {
+      "atoms": 65,
+      "heavy_atoms": 37,
+      "bonds": 69,
+      "formal_charge": 0,
+      "molecular_weight": 492.583,
+      "canonical_smiles": "CN1CCC(COc2cnc(-c3cccc(Cn4nc(-c5cccc(C#N)c5)ccc4=O)c3)nc2)CC1",
+      "chiral_centers": [],
+      "nitrogen_environments": [
+        {
+          "index": 7,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 1,
+          "neighbors": [
+            "C(index=6)"
+          ]
+        },
+        {
+          "index": 12,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 3,
+          "neighbors": [
+            "C(index=11)",
+            "N(index=13)",
+            "C(index=15)"
+          ]
+        },
+        {
+          "index": 13,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "C(index=8)",
+            "N(index=12)"
+          ]
+        },
+        {
+          "index": 23,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "C(index=22)",
+            "C(index=24)"
+          ]
+        },
+        {
+          "index": 27,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "C(index=22)",
+            "C(index=26)"
+          ]
+        },
+        {
+          "index": 33,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 3,
+          "neighbors": [
+            "C(index=32)",
+            "C(index=34)",
+            "C(index=36)"
+          ]
+        }
+      ]
+    },
+    "docked": {
+      "atoms": 37,
+      "heavy_atoms": 37,
+      "bonds": 41,
+      "formal_charge": 0,
+      "molecular_weight": 492.583,
+      "canonical_smiles": "CN1CCC(COc2cnc(-c3cccc(Cn4nc(-c5cccc(C#N)c5)ccc4=O)c3)nc2)CC1",
+      "chiral_centers": [],
+      "nitrogen_environments": [
+        {
+          "index": 1,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "C(index=0)",
+            "C(index=2)"
+          ]
+        },
+        {
+          "index": 3,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "C(index=2)",
+            "C(index=4)"
+          ]
+        },
+        {
+          "index": 13,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 3,
+          "neighbors": [
+            "C(index=11)",
+            "C(index=12)",
+            "C(index=14)"
+          ]
+        },
+        {
+          "index": 22,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 3,
+          "neighbors": [
+            "C(index=21)",
+            "C(index=24)",
+            "N(index=23)"
+          ]
+        },
+        {
+          "index": 23,
+          "formal_charge": 0,
+          "aromatic": true,
+          "degree": 2,
+          "neighbors": [
+            "N(index=22)",
+            "C(index=25)"
+          ]
+        },
+        {
+          "index": 36,
+          "formal_charge": 0,
+          "aromatic": false,
+          "degree": 1,
+          "neighbors": [
+            "C(index=35)"
+          ]
+        }
+      ]
+    }
+  }
+}

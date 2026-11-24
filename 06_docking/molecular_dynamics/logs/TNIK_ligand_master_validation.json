@@ -1,0 +1,61 @@
+{
+  "started": "2026-11-04T18:58:52.184704",
+  "project": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project",
+  "software": {
+    "gmx": "/opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx",
+    "obabel": "/opt/miniconda3/envs/tnik_md/bin/obabel",
+    "antechamber": "/opt/miniconda3/envs/tnik_md/bin/antechamber",
+    "parmchk2": "/opt/miniconda3/envs/tnik_md/bin/parmchk2",
+    "tleap": "/opt/miniconda3/envs/tnik_md/bin/tleap",
+    "acpype": "/opt/miniconda3/envs/tnik_md/bin/acpype"
+  },
+  "ligands": {
+    "ponatinib": {
+      "sdf": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/ligands/ponatinib_original.sdf",
+      "pose": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/ligands/ponatinib_docked_first_pose.pdbqt",
+      "sdf_valid": true,
+      "pose_valid": true,
+      "atoms": 66,
+      "heavy_atoms": 39,
+      "bonds": 70,
+      "formal_charge": 0,
+      "canonical_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+      "pose_atoms": 40
+    },
+    "tepotinib": {
+      "sdf": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/ligands/tepotinib_original.sdf",
+      "pose": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/ligands/tepotinib_docked_first_pose.pdbqt",
+      "sdf_valid": true,
+      "pose_valid": true,
+      "atoms": 65,
+      "heavy_atoms": 37,
+      "bonds": 69,
+      "formal_charge": 0,
+      "canonical_smiles": "CN1CCC(COc2cnc(-c3cccc(Cn4nc(-c5cccc(C#N)c5)ccc4=O)c3)nc2)CC1",
+      "pose_atoms": 37
+    }
+  },
+  "inputs": {
+    "TNIK protein structure": {
+      "path": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/structures/TNIK_6RA7_protein_raw.pdb",
+      "exists": true
+    },
+    "Apo NPT TPR": {
+      "path": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/parameters/TNIK_npt_600ps.tpr",
+      "exists": true
+    },
+    "Apo NPT trajectory": {
+      "path": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/parameters/TNIK_npt_crescale.xtc",
+      "exists": true
+    },
+    "Phosphothreonine force-field library": {
+      "path": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/parameters/phosaa14SB.dat",
+      "exists": false
+    }
+  },
+  "warnings": [
+    "ponatinib: heavy atom count differs from pose atom count"
+  ],
+  "status": "VALIDATION_COMPLETED_NEEDS_CHEMICAL_MAPPING",
+  "finished": "2026-11-04T18:58:52.190255"
+}

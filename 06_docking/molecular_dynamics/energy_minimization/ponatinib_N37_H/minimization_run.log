@@ -1,0 +1,26 @@
+                :-) GROMACS - gmx mdrun, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx mdrun -deffnm 06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/minimization -ntmpi 1 -ntomp 4
+
+Reading file 06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/minimization.tpr, VERSION 2026.3-conda_forge (single precision)
+Using 1 MPI thread
+Using 4 OpenMP threads 
+
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+03
+   Number of steps    =        50000
+
+writing lowest energy coordinates.
+
+Steepest Descents converged to Fmax < 1000 in 1364 steps
+Potential Energy  = -7.0973769e+05
+Maximum force     =  8.8572748e+02 on atom 1598
+Norm of force     =  1.7350626e+01
+
+GROMACS reminds you: "But I always say, one's company, two's a crowd, and three's a party." (Andy Warhol)
+

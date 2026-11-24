@@ -1,0 +1,71 @@
+{
+  "created": "2026-11-04T20:39:50.544285",
+  "project": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project",
+  "gromacs": "/opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx",
+  "nvt_duration_ps": 500,
+  "timestep_ps": 0.002,
+  "nvt_steps": 250000,
+  "temperature_K": 300,
+  "protein_restraint_kj_mol_nm2": 1000,
+  "ligand_restraint_kj_mol_nm2": 1000,
+  "systems": {
+    "ponatinib_N32_H": {
+      "success": true,
+      "system": "ponatinib_N32_H",
+      "total_atoms": 48973,
+      "protein_atoms": 4881,
+      "protein_heavy_atoms": 2434,
+      "ligand_atoms": 67,
+      "ligand_heavy_atoms": 39,
+      "protein_restraint_file": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/posre_protein_heavy.itp",
+      "ligand_restraint_file": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/posre_ligand_heavy.itp",
+      "topology_backup": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/complex.top.pre_posres.bak",
+      "nvt_mdp": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/nvt_posres.mdp",
+      "grompp": {
+        "return_code": 0,
+        "tpr": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/nvt_validation.tpr",
+        "log": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/logs/ponatinib_N32_H_nvt_grompp.log",
+        "maxwarn_used": 1
+      }
+    },
+    "ponatinib_N37_H": {
+      "success": true,
+      "system": "ponatinib_N37_H",
+      "total_atoms": 48973,
+      "protein_atoms": 4881,
+      "protein_heavy_atoms": 2434,
+      "ligand_atoms": 67,
+      "ligand_heavy_atoms": 39,
+      "protein_restraint_file": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/posre_protein_heavy.itp",
+      "ligand_restraint_file": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/posre_ligand_heavy.itp",
+      "topology_backup": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/complex.top.pre_posres.bak",
+      "nvt_mdp": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/nvt_posres.mdp",
+      "grompp": {
+        "return_code": 0,
+        "tpr": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/ponatinib_N37_H/nvt_validation.tpr",
+        "log": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/logs/ponatinib_N37_H_nvt_grompp.log",
+        "maxwarn_used": 1
+      }
+    },
+    "tepotinib_pH74_plus1": {
+      "success": true,
+      "system": "tepotinib_pH74_plus1",
+      "total_atoms": 48984,
+      "protein_atoms": 4881,
+      "protein_heavy_atoms": 2434,
+      "ligand_atoms": 66,
+      "ligand_heavy_atoms": 37,
+      "protein_restraint_file": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/posre_protein_heavy.itp",
+      "ligand_restraint_file": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/posre_ligand_heavy.itp",
+      "topology_backup": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/complex.top.pre_posres.bak",
+      "nvt_mdp": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/nvt_posres.mdp",
+      "grompp": {
+        "return_code": 0,
+        "tpr": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/nvt_validation.tpr",
+        "log": "/Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/logs/tepotinib_pH74_plus1_nvt_grompp.log",
+        "maxwarn_used": 1
+      }
+    }
+  },
+  "overall_success": true
+}

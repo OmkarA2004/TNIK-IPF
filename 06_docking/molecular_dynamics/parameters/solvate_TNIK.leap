@@ -1,0 +1,21 @@
+source leaprc.protein.ff14SB
+source leaprc.phosaa14SB
+source leaprc.water.tip3p
+
+loadamberparams frcmod.ionsjc_tip3p
+
+protein = loadpdb 06_docking/molecular_dynamics/structures/TNIK_6RA7_protein_raw.pdb
+
+check protein
+
+solvatebox protein TIP3PBOX 12.0
+
+addions protein Cl- 0
+
+check protein
+
+saveamberparm protein 06_docking/molecular_dynamics/parameters/TNIK_solvated.prmtop 06_docking/molecular_dynamics/parameters/TNIK_solvated.inpcrd
+
+savepdb protein 06_docking/molecular_dynamics/structures/TNIK_solvated.pdb
+
+quit

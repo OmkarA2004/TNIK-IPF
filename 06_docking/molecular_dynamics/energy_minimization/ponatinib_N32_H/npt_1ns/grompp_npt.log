@@ -1,0 +1,78 @@
+                :-) GROMACS - gmx grompp, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx grompp -f 06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/npt_1ns/npt_1ns.mdp -c 06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/nvt_500ps.gro -r 06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/nvt_500ps.gro -t 06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/nvt_500ps.cpt -p 06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/complex.top -o 06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/npt_1ns/npt_1ns.tpr -po 06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/npt_1ns/npt_mdout.mdp
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 100419.00
+
+NOTE 1 [file 06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/npt_1ns/npt_1ns.mdp]:
+  Removing center of mass motion in the presence of position restraints
+  might cause artifacts. When you are using position restraints to
+  equilibrate a macro-molecule, the artifacts are usually negligible.
+
+Last frame         -1 time  500.000   
+
+There was 1 NOTE
+
+GROMACS reminds you: "Oh My God ! It's the Funky Shit" (Beastie Boys)
+
+Setting the LD random seed to -1392530194
+
+Generated 1830 of the 1830 non-bonded parameter combinations
+
+Generated 1830 of the 1830 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'MOL'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'Cl-'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+
+turning H bonds into constraints...
+
+Taking velocities from '06_docking/molecular_dynamics/energy_minimization/ponatinib_N32_H/nvt_500ps.gro'
+Analysing residue names:
+There are:   300    Protein residues
+There are:     6      Other residues
+There are: 14674      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.431 nm between atom 3507 and 3515
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.094 nm, buffer size 0.094 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.024 nm, buffer size 0.024 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+  rest:       	 3.799  4.314  4.942
+  rest:       	 3.799  4.314  4.942
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+
+Using frame at t = 500 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x80x84, spacing 0.119 0.109 0.114
+
+Estimate for the relative computational load of the PME mesh part: 0.25
+
+This run will generate roughly 31 Mb of data

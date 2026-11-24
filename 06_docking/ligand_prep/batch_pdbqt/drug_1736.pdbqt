@@ -1,0 +1,36 @@
+REMARK SMILES CCC(=O)NC[C@@H]1C[C@H]1c1cccc2c1CCO2
+REMARK SMILES IDX 5 1 3 2 4 3 6 5 7 6 9 7 8 8 10 9 12 10 13 11 11 12 14 13
+REMARK SMILES IDX 15 14 18 15 16 16 17 17 2 18 1 19
+REMARK H PARENT 5 4
+REMARK INDEX MAP 10 1 11 2 12 3 27 4 9 5 8 6 6 7 7 8 5 9 1 10 2 11 15 12 3 13
+REMARK INDEX MAP 4 14 18 15 16 16 17 17 13 18 14 19
+ROOT
+ATOM      1  N   UNL     1       1.986  -0.805  -0.186  1.00  0.00    -0.356 N 
+ATOM      2  C   UNL     1       3.236  -1.134   0.296  1.00  0.00    +0.219 C 
+ATOM      3  O   UNL     1       3.931  -2.024  -0.178  1.00  0.00    -0.275 OA
+ATOM      4  H   UNL     1       1.614   0.101   0.062  1.00  0.00    +0.163 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  C   UNL     1       1.483  -1.417  -1.393  1.00  0.00    +0.120 C 
+BRANCH   5   6
+ATOM      6  C   UNL     1       0.000  -1.249  -1.460  1.00  0.00    +0.016 C 
+ATOM      7  C   UNL     1      -0.630   0.094  -1.777  1.00  0.00    +0.025 C 
+ATOM      8  C   UNL     1      -0.659  -1.031  -2.792  1.00  0.00    +0.014 C 
+BRANCH   7   9
+ATOM      9  C   UNL     1      -1.929   0.521  -1.133  1.00  0.00    -0.038 A 
+ATOM     10  C   UNL     1      -4.255   1.314  -1.362  1.00  0.00    +0.004 A 
+ATOM     11  C   UNL     1      -4.422   1.331   0.019  1.00  0.00    +0.047 A 
+ATOM     12  C   UNL     1      -3.027   0.920  -1.923  1.00  0.00    +0.004 A 
+ATOM     13  C   UNL     1      -3.344   0.968   0.796  1.00  0.00    +0.122 A 
+ATOM     14  C   UNL     1      -2.127   0.577   0.246  1.00  0.00    +0.001 A 
+ATOM     15  O   UNL     1      -3.372   0.942   2.167  1.00  0.00    -0.493 OA
+ATOM     16  C   UNL     1      -1.215   0.201   1.353  1.00  0.00    +0.081 C 
+ATOM     17  C   UNL     1      -1.983   0.797   2.532  1.00  0.00    +0.234 C 
+ENDBRANCH   7   9
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   2  18
+ATOM     18  C   UNL     1       3.648  -0.277   1.477  1.00  0.00    +0.096 C 
+ATOM     19  C   UNL     1       5.010  -0.664   2.026  1.00  0.00    +0.014 C 
+ENDBRANCH   2  18
+TORSDOF 4

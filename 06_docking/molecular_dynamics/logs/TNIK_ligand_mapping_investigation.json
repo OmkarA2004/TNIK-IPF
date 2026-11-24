@@ -1,0 +1,48 @@
+{
+  "ponatinib": {
+    "original_sdf_readable": true,
+    "pose_exists": true,
+    "conversion": {
+      "mol2": {
+        "returncode": 0,
+        "output_exists": true,
+        "message": "1 molecule converted\n"
+      },
+      "sdf": {
+        "returncode": 0,
+        "output_exists": true,
+        "message": "1 molecule converted\n"
+      }
+    },
+    "converted_sdf_readable": true,
+    "converted_atoms": 40,
+    "converted_heavy_atoms": 39,
+    "converted_bonds": 44,
+    "converted_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+    "same_element_counts": true,
+    "same_graph_exact": true
+  },
+  "tepotinib": {
+    "original_sdf_readable": true,
+    "pose_exists": true,
+    "conversion": {
+      "mol2": {
+        "returncode": 0,
+        "output_exists": true,
+        "message": "1 molecule converted\n"
+      },
+      "sdf": {
+        "returncode": 0,
+        "output_exists": true,
+        "message": "1 molecule converted\n"
+      }
+    },
+    "converted_sdf_readable": true,
+    "converted_atoms": 37,
+    "converted_heavy_atoms": 37,
+    "converted_bonds": 41,
+    "converted_smiles": "CN1CCC(COc2cnc(-c3cccc(Cn4nc(-c5cccc(C#N)c5)ccc4=O)c3)nc2)CC1",
+    "same_element_counts": true,
+    "same_graph_exact": true
+  }
+}

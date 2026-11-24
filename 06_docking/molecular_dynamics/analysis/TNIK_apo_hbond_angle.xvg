@@ -1,0 +1,47 @@
+# This file was created Wed Nov  4 08:33:20 2026
+# Created by:
+#                :-) GROMACS - gmx hbond, 2026.3-conda_forge (-:
+# 
+# Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+# Data prefix:  /opt/miniconda3/envs/tnik_md
+# Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+# Command line:
+#   gmx hbond -s 06_docking/molecular_dynamics/parameters/TNIK_npt_600ps.tpr -f 06_docking/molecular_dynamics/parameters/TNIK_npt_crescale.xtc -num 06_docking/molecular_dynamics/analysis/TNIK_apo_hbond_number.xvg -dist 06_docking/molecular_dynamics/analysis/TNIK_apo_hbond_distance.xvg -ang 06_docking/molecular_dynamics/analysis/TNIK_apo_hbond_angle.xvg -tu ns
+# gmx hbond is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "Hydrogen Bond Angle Distribution Histogram"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (degrees)"
+@    yaxis  label "Probability"
+@TYPE xy
+       0.5  0.0027602
+       1.5  0.0091921
+       2.5  0.0158974
+       3.5  0.0207408
+       4.5  0.0270295
+       5.5  0.0311438
+       6.5  0.0351409
+       7.5  0.0402057
+       8.5  0.0434607
+       9.5  0.0450622
+      10.5  0.0470933
+      11.5  0.0471844
+      12.5  0.0466767
+      13.5  0.0481349
+      14.5  0.0473146
+      15.5  0.0461168
+      16.5  0.0446976
+      17.5  0.0436820
+      18.5  0.0415207
+      19.5  0.0392813
+      20.5  0.0367815
+      21.5  0.0351930
+      22.5  0.0329406
+      23.5  0.0305970
+      24.5  0.0288393
+      25.5  0.0258317
+      26.5  0.0240609
+      27.5  0.0224204
+      28.5  0.0208710
+      29.5  0.0201289

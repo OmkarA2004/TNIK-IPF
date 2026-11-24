@@ -1,0 +1,73 @@
+                :-) GROMACS - gmx grompp, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx grompp -f 06_docking/molecular_dynamics/parameters/md_test.mdp -c 06_docking/molecular_dynamics/parameters/TNIK_conversion_test.gro -p 06_docking/molecular_dynamics/parameters/TNIK_conversion_test.top -o 06_docking/molecular_dynamics/parameters/TNIK_test.tpr -maxwarn 0
+
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file TNIK_conversion_test.top, line 53771]:
+  System has non-zero total charge: 2.000000
+  Total charge should normally be an integer. See
+  https://manual.gromacs.org/current/user-guide/floating-point.html
+  for discussion on how close it should be to an integer.
+
+
+
+
+WARNING 1 [file TNIK_conversion_test.top, line 53771]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+Setting the LD random seed to -469770433
+
+Generated 666 of the 666 non-bonded parameter combinations
+
+Generated 666 of the 666 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmüller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. (2014)
+https://doi.org/10.1021/ct400626b
+-------- -------- --- Thank You --- -------- --------
+
+Number of degrees of freedom in T-Coupling group rest is 14640.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+There was 1 NOTE
+
+There was 1 WARNING
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2026.3-conda_forge
+Source file: src/gromacs/gmxpreprocess/grompp.cpp (line 2923)
+
+Fatal error:
+Too many warnings (1).
+If you are sure all warnings are harmless, use the -maxwarn option.
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Analysing residue names:
+There are:   300    Protein residues
+There are:     2      Other residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.417 nm between atom 3378 and 3386
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 40x52x60, spacing 0.116 0.119 0.119
+
+Estimate for the relative computational load of the PME mesh part: 0.42
+
+This run will generate roughly 0 Mb of data

@@ -1,0 +1,25 @@
+                :-) GROMACS - gmx check, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx check -f 06_docking/molecular_dynamics/parameters/TNIK_npt_crescale.cpt
+
+
+# Atoms  48941
+Last frame         -1 time  100.000   
+
+
+Item        #frames Timestep (ps)
+Step             1
+Time             1
+Lambda           1
+Coords           1
+Velocities       1
+Forces           0
+Box              1
+
+GROMACS reminds you: "These Gromacs Guys Really Rock" (P.J. Meulenhoff)
+
+Checking file 06_docking/molecular_dynamics/parameters/TNIK_npt_crescale.cpt

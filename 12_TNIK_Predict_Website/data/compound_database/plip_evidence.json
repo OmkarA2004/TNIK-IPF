@@ -1,0 +1,1095 @@
+{
+  "ponatinib": {
+    "ligand": "MOL",
+    "ligand_smiles": "CN1CCN(CC1)Cc1ccc(cc1C(F)(F)F)NC(=O)c1ccc(c(c1)C#Cc1cnc2n1nccc2)C",
+    "ligand_inchikey": "PHXJVRSECIGDHY-UHFFFAOYSA-N",
+    "ligand_properties": {
+      "num_heavy_atoms": 39,
+      "num_hbd": 1,
+      "num_unpaired_hbd": 1,
+      "num_hba": 5,
+      "num_unpaired_hba": 4,
+      "num_hal": 3,
+      "num_unpaired_hal": 2,
+      "num_aromatic_rings": 4,
+      "num_rotatable_bonds": 6,
+      "molweight": 532.5594895999998,
+      "logp": 4.4048000000000025
+    },
+    "binding_site_residues": [
+      {
+        "residue": "LYS",
+        "position": "155A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.6
+      },
+      {
+        "residue": "LYS",
+        "position": "54A",
+        "contact": true,
+        "minimum_distance_angstrom": 2.7
+      },
+      {
+        "residue": "ASP",
+        "position": "115A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.0
+      },
+      {
+        "residue": "ASN",
+        "position": "158A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.7
+      },
+      {
+        "residue": "GLU",
+        "position": "163A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.7
+      },
+      {
+        "residue": "TYR",
+        "position": "40A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.4
+      },
+      {
+        "residue": "LEU",
+        "position": "103A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.6
+      },
+      {
+        "residue": "ARG",
+        "position": "313A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.0
+      },
+      {
+        "residue": "GLY",
+        "position": "32A",
+        "contact": false,
+        "minimum_distance_angstrom": 2.2
+      },
+      {
+        "residue": "ALA",
+        "position": "52A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.2
+      },
+      {
+        "residue": "LEU",
+        "position": "169A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.1
+      },
+      {
+        "residue": "ALA",
+        "position": "110A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.1
+      },
+      {
+        "residue": "ASP",
+        "position": "153A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.7
+      },
+      {
+        "residue": "PHE",
+        "position": "172A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.2
+      },
+      {
+        "residue": "GLY",
+        "position": "37A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.1
+      },
+      {
+        "residue": "GLY",
+        "position": "109A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.3
+      },
+      {
+        "residue": "ILE",
+        "position": "53A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.3
+      },
+      {
+        "residue": "VAL",
+        "position": "31A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.7
+      },
+      {
+        "residue": "VAL",
+        "position": "159A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.0
+      },
+      {
+        "residue": "GLY",
+        "position": "34A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.4
+      },
+      {
+        "residue": "GLY",
+        "position": "111A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.0
+      },
+      {
+        "residue": "ASN",
+        "position": "119A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.3
+      },
+      {
+        "residue": "ASN",
+        "position": "33A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.0
+      },
+      {
+        "residue": "ALA",
+        "position": "51A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.0
+      },
+      {
+        "residue": "THR",
+        "position": "191A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.8
+      },
+      {
+        "residue": "VAL",
+        "position": "55A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.3
+      },
+      {
+        "residue": "LEU",
+        "position": "73A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.7
+      },
+      {
+        "residue": "LEU",
+        "position": "160A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.2
+      },
+      {
+        "residue": "LYS",
+        "position": "310A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.5
+      },
+      {
+        "residue": "MET",
+        "position": "105A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.4
+      },
+      {
+        "residue": "GLN",
+        "position": "38A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.7
+      },
+      {
+        "residue": "TYR",
+        "position": "36A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.1
+      },
+      {
+        "residue": "LYS",
+        "position": "41A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.9
+      },
+      {
+        "residue": "LEU",
+        "position": "50A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.4
+      },
+      {
+        "residue": "SER",
+        "position": "112A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.9
+      },
+      {
+        "residue": "LEU",
+        "position": "161A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.5
+      },
+      {
+        "residue": "MET",
+        "position": "56A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.0
+      },
+      {
+        "residue": "VAL",
+        "position": "174A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.3
+      },
+      {
+        "residue": "CYS",
+        "position": "108A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.3
+      },
+      {
+        "residue": "GLU",
+        "position": "106A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.8
+      },
+      {
+        "residue": "THR",
+        "position": "35A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.0
+      },
+      {
+        "residue": "ALA",
+        "position": "83A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.2
+      },
+      {
+        "residue": "LEU",
+        "position": "30A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.3
+      },
+      {
+        "residue": "GLU",
+        "position": "29A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.7
+      },
+      {
+        "residue": "VAL",
+        "position": "170A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.8
+      },
+      {
+        "residue": "ASP",
+        "position": "171A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.2
+      },
+      {
+        "residue": "PHE",
+        "position": "107A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.3
+      },
+      {
+        "residue": "VAL",
+        "position": "39A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.4
+      },
+      {
+        "residue": "GLN",
+        "position": "157A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.7
+      },
+      {
+        "residue": "GLY",
+        "position": "173A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.0
+      },
+      {
+        "residue": "GLU",
+        "position": "69A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.8
+      }
+    ],
+    "interactions": {
+      "hydrophobic_interactions": [
+        {
+          "resnr": "31",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.75",
+          "ligcarbonidx": "2926",
+          "protcarbonidx": "142",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "36",
+          "restype": "TYR",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.87",
+          "ligcarbonidx": "2938",
+          "protcarbonidx": "178",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "36",
+          "restype": "TYR",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.95",
+          "ligcarbonidx": "2926",
+          "protcarbonidx": "183",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "39",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.44",
+          "ligcarbonidx": "2931",
+          "protcarbonidx": "211",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "39",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "4.00",
+          "ligcarbonidx": "2933",
+          "protcarbonidx": "210",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "54",
+          "restype": "LYS",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.64",
+          "ligcarbonidx": "2937",
+          "protcarbonidx": "357",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "107",
+          "restype": "PHE",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.35",
+          "ligcarbonidx": "2923",
+          "protcarbonidx": "891",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "170",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.81",
+          "ligcarbonidx": "2936",
+          "protcarbonidx": "1512",
+          "ligcoo": "",
+          "protcoo": ""
+        }
+      ],
+      "hydrogen_bonds": [
+        {
+          "resnr": "171",
+          "restype": "ASP",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "sidechain": "True",
+          "dist_h-a": "3.23",
+          "dist_d-a": "3.71",
+          "don_angle": "113.78",
+          "protisdon": "True",
+          "donoridx": "1522",
+          "donortype": "O3",
+          "acceptoridx": "2940",
+          "acceptortype": "Nar",
+          "ligcoo": "",
+          "protcoo": ""
+        }
+      ],
+      "water_bridges": [],
+      "salt_bridges": [],
+      "pi_stacks": [],
+      "pi_cation_interactions": [],
+      "halogen_bonds": [
+        {
+          "resnr": "115",
+          "restype": "ASP",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "sidechain": "True",
+          "dist": "3.02",
+          "don_angle": "151.29",
+          "acc_angle": "141.65",
+          "don_idx": "2950",
+          "donortype": "F",
+          "acc_idx": "951",
+          "acceptortype": "O2",
+          "ligcoo": "",
+          "protcoo": ""
+        }
+      ],
+      "metal_complexes": []
+    }
+  },
+  "tepotinib": {
+    "ligand": "MOL",
+    "ligand_smiles": "N#Cc1cccc(c1)c1ccc(=O)n(n1)Cc1cccc(c1)c1ncc(cn1)OCC1CCN(CC1)C",
+    "ligand_inchikey": "AHYMHWXQRWRBKT-UHFFFAOYSA-N",
+    "ligand_properties": {
+      "num_heavy_atoms": 37,
+      "num_hbd": 0,
+      "num_unpaired_hbd": 0,
+      "num_hba": 7,
+      "num_unpaired_hba": 3,
+      "num_hal": 0,
+      "num_unpaired_hal": 0,
+      "num_aromatic_rings": 4,
+      "num_rotatable_bonds": 7,
+      "molweight": 492.57162,
+      "logp": 3.9457800000000014
+    },
+    "binding_site_residues": [
+      {
+        "residue": "ALA",
+        "position": "51A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.9
+      },
+      {
+        "residue": "LEU",
+        "position": "169A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.7
+      },
+      {
+        "residue": "GLU",
+        "position": "106A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.7
+      },
+      {
+        "residue": "GLU",
+        "position": "29A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.6
+      },
+      {
+        "residue": "VAL",
+        "position": "39A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.6
+      },
+      {
+        "residue": "HIS",
+        "position": "151A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.2
+      },
+      {
+        "residue": "LEU",
+        "position": "30A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.5
+      },
+      {
+        "residue": "LYS",
+        "position": "41A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.9
+      },
+      {
+        "residue": "SER",
+        "position": "112A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.6
+      },
+      {
+        "residue": "VAL",
+        "position": "28A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.5
+      },
+      {
+        "residue": "LEU",
+        "position": "161A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.0
+      },
+      {
+        "residue": "ARG",
+        "position": "313A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.9
+      },
+      {
+        "residue": "MET",
+        "position": "56A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.9
+      },
+      {
+        "residue": "LEU",
+        "position": "73A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.8
+      },
+      {
+        "residue": "GLN",
+        "position": "157A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.5
+      },
+      {
+        "residue": "PHE",
+        "position": "172A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.5
+      },
+      {
+        "residue": "GLY",
+        "position": "111A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.8
+      },
+      {
+        "residue": "LYS",
+        "position": "54A",
+        "contact": true,
+        "minimum_distance_angstrom": 2.7
+      },
+      {
+        "residue": "TYR",
+        "position": "36A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.1
+      },
+      {
+        "residue": "GLY",
+        "position": "173A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.9
+      },
+      {
+        "residue": "ALA",
+        "position": "83A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.0
+      },
+      {
+        "residue": "GLY",
+        "position": "37A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.7
+      },
+      {
+        "residue": "VAL",
+        "position": "31A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.5
+      },
+      {
+        "residue": "GLY",
+        "position": "42A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.3
+      },
+      {
+        "residue": "PHE",
+        "position": "107A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.4
+      },
+      {
+        "residue": "GLY",
+        "position": "32A",
+        "contact": true,
+        "minimum_distance_angstrom": 2.3
+      },
+      {
+        "residue": "LEU",
+        "position": "103A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.6
+      },
+      {
+        "residue": "VAL",
+        "position": "113A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.9
+      },
+      {
+        "residue": "LEU",
+        "position": "160A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.3
+      },
+      {
+        "residue": "LYS",
+        "position": "168A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.2
+      },
+      {
+        "residue": "VAL",
+        "position": "170A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.3
+      },
+      {
+        "residue": "VAL",
+        "position": "159A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.8
+      },
+      {
+        "residue": "ASN",
+        "position": "158A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.1
+      },
+      {
+        "residue": "ALA",
+        "position": "52A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.4
+      },
+      {
+        "residue": "THR",
+        "position": "35A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.8
+      },
+      {
+        "residue": "GLY",
+        "position": "109A",
+        "contact": false,
+        "minimum_distance_angstrom": 4.9
+      },
+      {
+        "residue": "ASP",
+        "position": "171A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.1
+      },
+      {
+        "residue": "GLY",
+        "position": "34A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.5
+      },
+      {
+        "residue": "TYR",
+        "position": "40A",
+        "contact": false,
+        "minimum_distance_angstrom": 5.6
+      },
+      {
+        "residue": "ALA",
+        "position": "110A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.0
+      },
+      {
+        "residue": "ASN",
+        "position": "33A",
+        "contact": true,
+        "minimum_distance_angstrom": 2.8
+      },
+      {
+        "residue": "ASN",
+        "position": "119A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.4
+      },
+      {
+        "residue": "ILE",
+        "position": "53A",
+        "contact": false,
+        "minimum_distance_angstrom": 6.0
+      },
+      {
+        "residue": "GLU",
+        "position": "69A",
+        "contact": true,
+        "minimum_distance_angstrom": 3.2
+      },
+      {
+        "residue": "MET",
+        "position": "105A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.5
+      },
+      {
+        "residue": "GLN",
+        "position": "38A",
+        "contact": false,
+        "minimum_distance_angstrom": 7.2
+      },
+      {
+        "residue": "ASP",
+        "position": "115A",
+        "contact": false,
+        "minimum_distance_angstrom": 3.4
+      },
+      {
+        "residue": "CYS",
+        "position": "108A",
+        "contact": true,
+        "minimum_distance_angstrom": 1.8
+      }
+    ],
+    "interactions": {
+      "hydrophobic_interactions": [
+        {
+          "resnr": "31",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.48",
+          "ligcarbonidx": "2938",
+          "protcarbonidx": "140",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "31",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.98",
+          "ligcarbonidx": "2940",
+          "protcarbonidx": "142",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "33",
+          "restype": "ASN",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.96",
+          "ligcarbonidx": "2931",
+          "protcarbonidx": "153",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "36",
+          "restype": "TYR",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.62",
+          "ligcarbonidx": "2939",
+          "protcarbonidx": "183",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "36",
+          "restype": "TYR",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.59",
+          "ligcarbonidx": "2953",
+          "protcarbonidx": "180",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "39",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.64",
+          "ligcarbonidx": "2953",
+          "protcarbonidx": "211",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "39",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.94",
+          "ligcarbonidx": "2950",
+          "protcarbonidx": "210",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "52",
+          "restype": "ALA",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.47",
+          "ligcarbonidx": "2947",
+          "protcarbonidx": "340",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "54",
+          "restype": "LYS",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.90",
+          "ligcarbonidx": "2955",
+          "protcarbonidx": "357",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "160",
+          "restype": "LEU",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.74",
+          "ligcarbonidx": "2939",
+          "protcarbonidx": "1420",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "160",
+          "restype": "LEU",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.33",
+          "ligcarbonidx": "2947",
+          "protcarbonidx": "1419",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "170",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.80",
+          "ligcarbonidx": "2952",
+          "protcarbonidx": "1511",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "170",
+          "restype": "VAL",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.26",
+          "ligcarbonidx": "2949",
+          "protcarbonidx": "1512",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "171",
+          "restype": "ASP",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "3.92",
+          "ligcarbonidx": "2955",
+          "protcarbonidx": "1519",
+          "ligcoo": "",
+          "protcoo": ""
+        }
+      ],
+      "hydrogen_bonds": [
+        {
+          "resnr": "32",
+          "restype": "GLY",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "sidechain": "False",
+          "dist_h-a": "2.33",
+          "dist_d-a": "3.25",
+          "don_angle": "147.31",
+          "protisdon": "True",
+          "donoridx": "147",
+          "donortype": "Nam",
+          "acceptoridx": "2924",
+          "acceptortype": "Nar",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "54",
+          "restype": "LYS",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "sidechain": "True",
+          "dist_h-a": "2.89",
+          "dist_d-a": "3.36",
+          "don_angle": "108.62",
+          "protisdon": "True",
+          "donoridx": "359",
+          "donortype": "N3+",
+          "acceptoridx": "2957",
+          "acceptortype": "N1",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "69",
+          "restype": "GLU",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "sidechain": "True",
+          "dist_h-a": "2.61",
+          "dist_d-a": "3.15",
+          "don_angle": "117.47",
+          "protisdon": "True",
+          "donoridx": "503",
+          "donortype": "O3",
+          "acceptoridx": "2957",
+          "acceptortype": "N1",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "108",
+          "restype": "CYS",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "sidechain": "False",
+          "dist_h-a": "1.82",
+          "dist_d-a": "2.82",
+          "don_angle": "162.25",
+          "protisdon": "True",
+          "donoridx": "898",
+          "donortype": "Nam",
+          "acceptoridx": "2948",
+          "acceptortype": "O2",
+          "ligcoo": "",
+          "protcoo": ""
+        },
+        {
+          "resnr": "171",
+          "restype": "ASP",
+          "reschain": "A",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "sidechain": "False",
+          "dist_h-a": "3.13",
+          "dist_d-a": "3.81",
+          "don_angle": "124.48",
+          "protisdon": "True",
+          "donoridx": "1518",
+          "donortype": "Nam",
+          "acceptoridx": "2957",
+          "acceptortype": "N1",
+          "ligcoo": "",
+          "protcoo": ""
+        }
+      ],
+      "water_bridges": [],
+      "salt_bridges": [
+        {
+          "resnr": "29",
+          "restype": "GLU",
+          "reschain": "A",
+          "prot_idx_list": "",
+          "resnr_lig": "1",
+          "restype_lig": "MOL",
+          "reschain_lig": "Z",
+          "dist": "4.00",
+          "protispos": "False",
+          "lig_group": "Tertamine",
+          "lig_idx_list": "",
+          "ligcoo": "",
+          "protcoo": ""
+        }
+      ],
+      "pi_stacks": [],
+      "pi_cation_interactions": [],
+      "halogen_bonds": [],
+      "metal_complexes": []
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "model": "DeepChem/ChemBERTa-77M-MLM",
+    "seed": 42,
+    "training_compounds": 289,
+    "validation_compounds": 73,
+    "test_compounds": 91,
+    "best_epoch": 20,
+    "best_validation_RMSE": 0.9652254501870837,
+    "test_RMSE": 1.0655537047995032,
+    "test_MAE": 0.8626029360425341,
+    "test_R2": 0.09242127232184716,
+    "device": "mps"
+}

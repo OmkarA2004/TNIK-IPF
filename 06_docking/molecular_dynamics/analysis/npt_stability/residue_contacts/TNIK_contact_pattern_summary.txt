@@ -1,0 +1,29 @@
+TNIK CONTACT PATTERN CLASSIFICATION
+Threshold: 50% trajectory-frame occupancy
+Residue numbering: original PDB 6RA7 chain A
+
+
+Below threshold (5 residues)
+THR35, LEU73, LYS155, GLN157, PHE172
+
+Ponatinib-associated (3 residues)
+LEU15, GLY109, ASP115
+
+Shared by all three (13 residues)
+VAL31, GLY32, TYR36, VAL39, ALA52, LYS54, PHE107, CYS108, GLY111, SER112, LEU160, VAL170, ASP171
+
+Tepotinib-associated (8 residues)
+SER16, GLU29, LEU30, ASN33, GLU69, MET105, GLU106, ARG313
+
+Largest Ponatinib protonation-model differences:
+residue  Ponatinib_N32_H  Ponatinib_N37_H  ponatinib_model_difference
+ GLN157        37.623762         6.930693                   30.693069
+ MET105        37.623762        10.891089                   26.732673
+ ARG313        40.594059        48.514851                    7.920792
+  ALA52        89.108911        82.178218                    6.930693
+ LYS155         0.000000         5.940594                    5.940594
+ GLY109        98.019802        93.069307                    4.950495
+ CYS108        97.029703       100.000000                    2.970297
+  THR35        11.881188        14.851485                    2.970297
+ SER112        50.495050        52.475248                    1.980198
+  SER16         0.000000         1.980198                    1.980198

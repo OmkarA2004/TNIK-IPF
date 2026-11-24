@@ -1,0 +1,39 @@
+                :-) GROMACS - gmx grompp, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx grompp -f 06_docking/molecular_dynamics/parameters/em.mdp -c 06_docking/molecular_dynamics/parameters/TNIK_solvated.gro -p 06_docking/molecular_dynamics/parameters/TNIK_solvated.top -o 06_docking/molecular_dynamics/parameters/TNIK_em.tpr -maxwarn 0
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 102762.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+GROMACS reminds you: "There are only two hard things in computer science - cache invalidation, naming things and off-by-one errors." (Anonymous)
+
+Setting the LD random seed to 1467464622
+
+Generated 780 of the 780 non-bonded parameter combinations
+
+Generated 780 of the 780 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'system1'
+
+Excluding 3 bonded neighbours molecule type 'Cl-'
+
+Excluding 3 bonded neighbours molecule type 'WAT'
+Analysing residue names:
+There are:   300    Protein residues
+There are:     4      Other residues
+There are: 14686      Water residues
+Analysing Protein...
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.417 nm between atom 1329 and 1337
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 60x80x84, spacing 0.119 0.109 0.114
+
+Estimate for the relative computational load of the PME mesh part: 0.24
+
+This run will generate roughly 4 Mb of data

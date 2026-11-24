@@ -1,0 +1,351 @@
+-I: Adding /opt/miniconda3/envs/tnik_md/dat/leap/prep to search path.
+-I: Adding /opt/miniconda3/envs/tnik_md/dat/leap/lib to search path.
+-I: Adding /opt/miniconda3/envs/tnik_md/dat/leap/parm to search path.
+-I: Adding /opt/miniconda3/envs/tnik_md/dat/leap/cmd to search path.
+-f: Source /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/complex_systems/tepotinib_pH74_plus1/build.leap.
+
+Welcome to LEaP!
+(no leaprc in search path)
+Sourcing: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/complex_systems/tepotinib_pH74_plus1/build.leap
+----- Source: /opt/miniconda3/envs/tnik_md/dat/leap/cmd/leaprc.protein.ff14SB
+----- Source of /opt/miniconda3/envs/tnik_md/dat/leap/cmd/leaprc.protein.ff14SB done
+Log file: ./leap.log
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/parm10.dat
+Reading title:
+PARM99 + frcmod.ff99SB + frcmod.parmbsc0 + OL3 for RNA
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/frcmod.ff14SB
+Reading force field modification type file (frcmod)
+Reading title:
+ff14SB protein backbone and sidechain parameters
+Loading library: /opt/miniconda3/envs/tnik_md/dat/leap/lib/amino12.lib
+Loading library: /opt/miniconda3/envs/tnik_md/dat/leap/lib/aminoct12.lib
+Loading library: /opt/miniconda3/envs/tnik_md/dat/leap/lib/aminont12.lib
+----- Source: /opt/miniconda3/envs/tnik_md/dat/leap/cmd/leaprc.phosaa14SB
+----- Source of /opt/miniconda3/envs/tnik_md/dat/leap/cmd/leaprc.phosaa14SB done
+Log file: ./leap.log
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/frcmod.phosaa14SB
+Reading force field modification type file (frcmod)
+Reading title:
+Updated dihedral parameters for phosphorylated amino acids for use with ff14SB
+Loading library: /opt/miniconda3/envs/tnik_md/dat/leap/lib/phosaa14SB.lib
+----- Source: /opt/miniconda3/envs/tnik_md/dat/leap/cmd/leaprc.gaff2
+----- Source of /opt/miniconda3/envs/tnik_md/dat/leap/cmd/leaprc.gaff2 done
+Log file: ./leap.log
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/gaff2.dat
+Reading title:
+AMBER General Force Field for organic molecules (Version 2.2.30, Oct 2025)
+----- Source: /opt/miniconda3/envs/tnik_md/dat/leap/cmd/leaprc.water.tip3p
+----- Source of /opt/miniconda3/envs/tnik_md/dat/leap/cmd/leaprc.water.tip3p done
+Loading library: /opt/miniconda3/envs/tnik_md/dat/leap/lib/atomic_ions.lib
+Loading library: /opt/miniconda3/envs/tnik_md/dat/leap/lib/solvents.lib
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/frcmod.tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+This is the additional/replacement parameter set for TIP3P water
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/frcmod.ions1lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of monovalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/frcmod.ions234lm_126_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Li/Merz ion parameters of divalent to tetravalent ions for TIP3P water model (12-6 normal usage set)
+Loading parameters: /opt/miniconda3/envs/tnik_md/dat/leap/parm/frcmod.ionsjc_tip3p
+Reading force field modification type file (frcmod)
+Reading title:
+Monovalent ion parameters for Ewald and TIP3P water from Joung & Cheatham JPCB (2008)
+Loading parameters: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/ligand_parameterization/pH74_GAFF2/tepotinib_pH74_plus1/tepotinib_pH74_plus1.frcmod
+Reading force field modification type file (frcmod)
+Reading title:
+Remark line goes here
+Loading PDB file: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/structures/TNIK_6RA7_protein_raw.pdb
+  Added missing heavy atom: .R<NILE 13>.A<CG2 9>
+  Added missing heavy atom: .R<NILE 13>.A<CG1 13>
+  Added missing heavy atom: .R<NILE 13>.A<CD1 16>
+  Added missing heavy atom: .R<ASP 14>.A<CG 8>
+  Added missing heavy atom: .R<ASP 14>.A<OD1 9>
+  Added missing heavy atom: .R<ASP 14>.A<OD2 10>
+  Added missing heavy atom: .R<SER 16>.A<OG 8>
+  Added missing heavy atom: .R<ARG 19>.A<CG 8>
+  Added missing heavy atom: .R<ARG 19>.A<CD 11>
+  Added missing heavy atom: .R<ARG 19>.A<NE 14>
+  Added missing heavy atom: .R<ARG 19>.A<CZ 16>
+  Added missing heavy atom: .R<ARG 19>.A<NH1 17>
+  Added missing heavy atom: .R<ARG 19>.A<NH2 20>
+  Added missing heavy atom: .R<LYS 46>.A<CG 8>
+  Added missing heavy atom: .R<LYS 46>.A<CD 11>
+  Added missing heavy atom: .R<LYS 46>.A<CE 14>
+  Added missing heavy atom: .R<LYS 46>.A<NZ 17>
+  Added missing heavy atom: .R<ASP 61>.A<CG 8>
+  Added missing heavy atom: .R<ASP 61>.A<OD1 9>
+  Added missing heavy atom: .R<ASP 61>.A<OD2 10>
+  Added missing heavy atom: .R<GLU 62>.A<CG 8>
+  Added missing heavy atom: .R<GLU 62>.A<CD 11>
+  Added missing heavy atom: .R<GLU 62>.A<OE1 12>
+  Added missing heavy atom: .R<GLU 62>.A<OE2 13>
+  Added missing heavy atom: .R<GLU 63>.A<CG 8>
+  Added missing heavy atom: .R<GLU 63>.A<CD 11>
+  Added missing heavy atom: .R<GLU 63>.A<OE1 12>
+  Added missing heavy atom: .R<GLU 63>.A<OE2 13>
+  Added missing heavy atom: .R<GLU 64>.A<CG 8>
+  Added missing heavy atom: .R<GLU 64>.A<CD 11>
+  Added missing heavy atom: .R<GLU 64>.A<OE1 12>
+  Added missing heavy atom: .R<GLU 64>.A<OE2 13>
+  Added missing heavy atom: .R<GLU 65>.A<CG 8>
+  Added missing heavy atom: .R<GLU 65>.A<CD 11>
+  Added missing heavy atom: .R<GLU 65>.A<OE1 12>
+  Added missing heavy atom: .R<GLU 65>.A<OE2 13>
+  Added missing heavy atom: .R<LYS 92>.A<CG 8>
+  Added missing heavy atom: .R<LYS 92>.A<CD 11>
+  Added missing heavy atom: .R<LYS 92>.A<CE 14>
+  Added missing heavy atom: .R<LYS 92>.A<NZ 17>
+  Added missing heavy atom: .R<ASP 179>.A<CG 8>
+  Added missing heavy atom: .R<ASP 179>.A<OD1 9>
+  Added missing heavy atom: .R<ASP 179>.A<OD2 10>
+  Added missing heavy atom: .R<ARG 180>.A<CG 8>
+  Added missing heavy atom: .R<ARG 180>.A<CD 11>
+  Added missing heavy atom: .R<ARG 180>.A<NE 14>
+  Added missing heavy atom: .R<ARG 180>.A<CZ 16>
+  Added missing heavy atom: .R<ARG 180>.A<NH1 17>
+  Added missing heavy atom: .R<ARG 180>.A<NH2 20>
+  Added missing heavy atom: .R<GLU 204>.A<CG 8>
+  Added missing heavy atom: .R<GLU 204>.A<CD 11>
+  Added missing heavy atom: .R<GLU 204>.A<OE1 12>
+  Added missing heavy atom: .R<GLU 204>.A<OE2 13>
+  Added missing heavy atom: .R<ASP 235>.A<CG 8>
+  Added missing heavy atom: .R<ASP 235>.A<OD1 9>
+  Added missing heavy atom: .R<ASP 235>.A<OD2 10>
+  Added missing heavy atom: .R<LYS 256>.A<CG 8>
+  Added missing heavy atom: .R<LYS 256>.A<CD 11>
+  Added missing heavy atom: .R<LYS 256>.A<CE 14>
+  Added missing heavy atom: .R<LYS 256>.A<NZ 17>
+  Added missing heavy atom: .R<LYS 260>.A<CE 14>
+  Added missing heavy atom: .R<LYS 260>.A<NZ 17>
+  Added missing heavy atom: .R<GLU 267>.A<CD 11>
+  Added missing heavy atom: .R<GLU 267>.A<OE1 12>
+  Added missing heavy atom: .R<GLU 267>.A<OE2 13>
+  Added missing heavy atom: .R<GLU 281>.A<CG 8>
+  Added missing heavy atom: .R<GLU 281>.A<CD 11>
+  Added missing heavy atom: .R<GLU 281>.A<OE1 12>
+  Added missing heavy atom: .R<GLU 281>.A<OE2 13>
+  Added missing heavy atom: .R<ARG 296>.A<CD 11>
+  Added missing heavy atom: .R<ARG 296>.A<NE 14>
+  Added missing heavy atom: .R<ARG 296>.A<CZ 16>
+  Added missing heavy atom: .R<ARG 296>.A<NH1 17>
+  Added missing heavy atom: .R<ARG 296>.A<NH2 20>
+  Added missing heavy atom: .R<LYS 312>.A<CG 8>
+  Added missing heavy atom: .R<LYS 312>.A<CD 11>
+  Added missing heavy atom: .R<LYS 312>.A<CE 14>
+  Added missing heavy atom: .R<LYS 312>.A<NZ 17>
+  Added missing heavy atom: .R<ARG 313>.A<CG 8>
+  Added missing heavy atom: .R<ARG 313>.A<CD 11>
+  Added missing heavy atom: .R<ARG 313>.A<NE 14>
+  Added missing heavy atom: .R<ARG 313>.A<CZ 16>
+  Added missing heavy atom: .R<ARG 313>.A<NH1 17>
+  Added missing heavy atom: .R<ARG 313>.A<NH2 20>
+  Added missing heavy atom: .R<CGLY 314>.A<OXT 8>
+  total atoms in file: 2349
+  Leap added 2532 missing atoms according to residue templates:
+       85 Heavy
+       2447 H / lone pairs
+Loading Mol2 file: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/ligand_parameterization/pH74_GAFF2/tepotinib_pH74_plus1/tepotinib_pH74_plus1.mol2
+Reading MOLECULE named MOL
+Checking 'protein'....
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+The unperturbed charge of the unit (2.000000) is not zero.
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.108 angstroms between nonbonded atoms HG23 and HE2
+-------  .R<NILE 13>.A<HG23 12> and .R<LYS 67>.A<HE2 15>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.238 angstroms between nonbonded atoms HG21 and HE3
+-------  .R<NILE 13>.A<HG21 10> and .R<LYS 67>.A<HE3 16>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.430 angstroms between nonbonded atoms CZ and HD12
+-------  .R<ARG 19>.A<CZ 16> and .R<ILE 24>.A<HD12 16>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.491 angstroms between nonbonded atoms HG and H
+-------  .R<SER 77>.A<HG 9> and .R<TYR 85>.A<H 2>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.458 angstroms between nonbonded atoms HH11 and HH
+-------  .R<ARG 152>.A<HH11 18> and .R<TYR 210>.A<HH 15>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.089 angstroms between nonbonded atoms HZ1 and HG1
+-------  .R<LYS 155>.A<HZ1 18> and .R<THR 191>.A<HG1 12>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 0.866 angstroms between nonbonded atoms HH22 and HE2
+-------  .R<ARG 184>.A<HH22 22> and .R<HIE 274>.A<HE2 13>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.404 angstroms between nonbonded atoms HE and HG1
+-------  .R<ARG 184>.A<HE 15> and .R<THR 209>.A<HG1 12>
+Checking parameters for unit 'protein'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Warnings: 9
+Unit is OK.
+Checking 'ligand'....
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+The unperturbed charge of the unit (0.999001) is not zero.
+Checking parameters for unit 'ligand'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Warnings: 1
+Unit is OK.
+Checking 'complex'....
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+The unperturbed charge of the unit (2.999001) is not zero.
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 0.887 angstroms between nonbonded atoms HH22 and H11
+-------  .R<ARG 313>.A<HH22 22> and .R<MOL 315>.A<H11 48>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.188 angstroms between nonbonded atoms HH22 and C9
+-------  .R<ARG 313>.A<HH22 22> and .R<MOL 315>.A<C9 12>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 0.866 angstroms between nonbonded atoms HE2 and HH22
+-------  .R<HIE 274>.A<HE2 13> and .R<ARG 184>.A<HH22 22>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.458 angstroms between nonbonded atoms HH and HH11
+-------  .R<TYR 210>.A<HH 15> and .R<ARG 152>.A<HH11 18>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.404 angstroms between nonbonded atoms HG1 and HE
+-------  .R<THR 209>.A<HG1 12> and .R<ARG 184>.A<HE 15>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.089 angstroms between nonbonded atoms HG1 and HZ1
+-------  .R<THR 191>.A<HG1 12> and .R<LYS 155>.A<HZ1 18>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.491 angstroms between nonbonded atoms H and HG
+-------  .R<TYR 85>.A<H 2> and .R<SER 77>.A<HG 9>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.108 angstroms between nonbonded atoms HE2 and HG23
+-------  .R<LYS 67>.A<HE2 15> and .R<NILE 13>.A<HG23 12>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.238 angstroms between nonbonded atoms HE3 and HG21
+-------  .R<LYS 67>.A<HE3 16> and .R<NILE 13>.A<HG21 10>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.430 angstroms between nonbonded atoms HD12 and CZ
+-------  .R<ILE 24>.A<HD12 16> and .R<ARG 19>.A<CZ 16>
+Checking parameters for unit 'complex'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Warnings: 11
+Unit is OK.
+Total unperturbed charge:   2.999001
+Total perturbed charge:     2.999001
+  Solute vdw bounding box:              44.304 59.884 69.014
+  Total bounding box for atom centers:  68.304 83.884 93.014
+  Solvent unit box:                     18.774 18.774 18.774
+  Total vdw box size:                   71.546 86.834 96.120 angstroms.
+  Volume: 597160.616 A^3 
+  Total mass 299653.554 amu,  Density 0.833 g/cc
+  Added 14681 residues.
+3 Cl- ions required to neutralize.
+Adding 3 counter ions to "complex". 14678 solvent molecules will remain.
+0: Placed Cl- in complex at (31.34, 35.15, 14.23).
+0: Placed Cl- in complex at (6.65, 29.32, -10.27).
+0: Placed Cl- in complex at (31.80, 7.57, 34.48).
+Checking 'complex'....
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 0.887 angstroms between nonbonded atoms HH22 and H11
+-------  .R<ARG 313>.A<HH22 22> and .R<MOL 315>.A<H11 48>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.188 angstroms between nonbonded atoms HH22 and C9
+-------  .R<ARG 313>.A<HH22 22> and .R<MOL 315>.A<C9 12>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 0.866 angstroms between nonbonded atoms HE2 and HH22
+-------  .R<HIE 274>.A<HE2 13> and .R<ARG 184>.A<HH22 22>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.458 angstroms between nonbonded atoms HH and HH11
+-------  .R<TYR 210>.A<HH 15> and .R<ARG 152>.A<HH11 18>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.404 angstroms between nonbonded atoms HG1 and HE
+-------  .R<THR 209>.A<HG1 12> and .R<ARG 184>.A<HE 15>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.089 angstroms between nonbonded atoms HG1 and HZ1
+-------  .R<THR 191>.A<HG1 12> and .R<LYS 155>.A<HZ1 18>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.491 angstroms between nonbonded atoms H and HG
+-------  .R<TYR 85>.A<H 2> and .R<SER 77>.A<HG 9>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.108 angstroms between nonbonded atoms HE2 and HG23
+-------  .R<LYS 67>.A<HE2 15> and .R<NILE 13>.A<HG23 12>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.238 angstroms between nonbonded atoms HE3 and HG21
+-------  .R<LYS 67>.A<HE3 16> and .R<NILE 13>.A<HG21 10>
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+Close contact of 1.430 angstroms between nonbonded atoms HD12 and CZ
+-------  .R<ILE 24>.A<HD12 16> and .R<ARG 19>.A<CZ 16>
+Checking parameters for unit 'complex'.
+Checking for bond parameters.
+Checking for angle parameters.
+check:  Warnings: 10
+Unit is OK.
+Total unperturbed charge:  -0.000999
+Total perturbed charge:    -0.000999
+Checking Unit.
+Building topology.
+Building atom parameters.
+Building bond parameters.
+Building angle parameters.
+Building proper torsion parameters.
+Building improper torsion parameters.
+ total 983 improper torsions applied
+Building H-Bond parameters.
+Incorporating Non-Bonded adjustments.
+Not Marking per-residue atom chain types.
+Marking per-residue atom chain types.
+  (Residues lacking connect0/connect1 - 
+   these don't have chain types marked:
+
+	res	total affected
+
+	CGLY	1
+	MOL	1
+	NILE	1
+	WAT	14678
+  )
+ (no restraints)
+Writing pdb file: /Users/omkardaravattu/Desktop/TNIK_IPF_Project/06_docking/molecular_dynamics/complex_systems/tepotinib_pH74_plus1/complex.pdb
+   printing CRYST1 record to PDB file with box info
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+ Converting N-terminal residue name to PDB format: NILE -> ILE
+
+/opt/miniconda3/envs/tnik_md/bin/teLeap: Warning!
+ Converting C-terminal residue name to PDB format: CGLY -> GLY
+	Quit
+
+Exiting LEaP: Errors = 0; Warnings = 33; Notes = 0.

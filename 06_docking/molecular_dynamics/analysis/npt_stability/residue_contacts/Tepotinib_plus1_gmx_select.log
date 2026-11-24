@@ -1,0 +1,15 @@
+                :-) GROMACS - gmx select, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx select -s 06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/npt_1ns/npt_1ns.tpr -f 06_docking/molecular_dynamics/analysis/npt_stability/processed_trajectories/tepotinib_pH74_plus1_whole_centered.xtc -n 06_docking/molecular_dynamics/analysis/npt_stability/index/tepotinib_pH74_plus1_contact_groups.ndx -select 'group "Protein" and within 0.35 of group "resname_MOL"' -oi 06_docking/molecular_dynamics/analysis/npt_stability/residue_contacts/Tepotinib_plus1_protein_contact_atoms_per_frame.dat -selrpos atom -xvg none
+
+Reading file 06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/npt_1ns/npt_1ns.tpr, VERSION 2026.3-conda_forge (single precision)
+Reading file 06_docking/molecular_dynamics/energy_minimization/tepotinib_pH74_plus1/npt_1ns/npt_1ns.tpr, VERSION 2026.3-conda_forge (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time   10.000   Reading frame       2 time   20.000   Reading frame       3 time   30.000   Reading frame       4 time   40.000   Reading frame       5 time   50.000   Reading frame       6 time   60.000   Reading frame       7 time   70.000   Reading frame       8 time   80.000   Reading frame       9 time   90.000   Reading frame      10 time  100.000   Reading frame      11 time  110.000   Reading frame      12 time  120.000   Reading frame      13 time  130.000   Reading frame      14 time  140.000   Reading frame      15 time  150.000   Reading frame      16 time  160.000   Reading frame      17 time  170.000   Reading frame      18 time  180.000   Reading frame      19 time  190.000   Reading frame      20 time  200.000   Reading frame      30 time  300.000   Reading frame      40 time  400.000   Reading frame      50 time  500.000   Reading frame      60 time  600.000   Reading frame      70 time  700.000   Reading frame      80 time  800.000   Reading frame      90 time  900.000   Reading frame     100 time 1000.000   Last frame        100 time 1000.000   
+Analyzed 101 frames, last time 1000.000
+
+GROMACS reminds you: "Calling a system 'non-linear' is like calling all wild animals 'non-elephants'." (Stan Ulam)
+

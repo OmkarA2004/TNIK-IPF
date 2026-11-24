@@ -1,0 +1,27 @@
+                :-) GROMACS - gmx check, 2026.3-conda_forge (-:
+
+Executable:   /opt/miniconda3/envs/tnik_md/bin.ARM_NEON_ASIMD/gmx
+Data prefix:  /opt/miniconda3/envs/tnik_md
+Working dir:  /Users/omkardaravattu/Desktop/TNIK_IPF_Project
+Command line:
+  gmx check -f 06_docking/molecular_dynamics/parameters/TNIK_solvated.gro
+
+Reading frames from gro file 'GROningen MAchine for Chemical Simulation', 48941 atoms.
+Reading frame       0 time    0.000   
+# Atoms  48941
+Precision 0.001 (nm)
+Last frame          0 time    0.000   
+
+
+Item        #frames Timestep (ps)
+Step             0
+Time             0
+Lambda           0
+Coords           1
+Velocities       0
+Forces           0
+Box              1
+
+GROMACS reminds you: "I Snipe Like Wesley" (Urban Dance Squad)
+
+Checking file 06_docking/molecular_dynamics/parameters/TNIK_solvated.gro
